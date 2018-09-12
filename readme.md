@@ -1,4 +1,4 @@
-#Moment 2#
+#Moment 2
 
 ###Använda packages:###
 Gulp-concat: Ihopslagning av filer.
