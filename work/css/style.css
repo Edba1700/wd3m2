@@ -1,0 +1,65 @@
+/*Marginclear*/
+p, body, section, ul, li, #container, footer, h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Tags*/
+body{
+    color: black;
+	background-image: url(../bilder/bg.jpg);
+	background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input, textarea{
+	margin-bottom: 5px;
+}
+
+p{
+	line-height: 120%;
+}
+
+header{
+	/*grid-area: header;*/
+	clear:both;
+	margin-bottom: 50px;
+}
+
+footer{
+	/*grid-area: footer;*/
+	margin-top: 20px;
+	text-align: center;
+}
+/*logo*/
+
+#logod{
+	width:15%;
+	margin-bottom: 15px;
+}
+#logoi{
+	width:100%;
+	height:auto;
+}
+/*Navigation*/
+
+nav>ul>li{
+	list-style: none;
+	float: left;
+	margin-right:5px;
+}
+
+/*Headings*/
+h1,h2,h3,h4,h5,h6{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+a:link {
+    color: #DF7401;
+}
+a:visited {
+    color: #8A4B08;
+}
+a:hover {
+    color: #FFBF00;
+}

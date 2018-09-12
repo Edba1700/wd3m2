@@ -1,0 +1,90 @@
+/*Main container*/
+#envelop{
+	background-color: white;
+    width: 960px;
+	margin: auto;
+	margin-top:0px;
+	padding: 10px 10px 10px 10px;
+}
+#mainpage{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+	/*"header header"*/
+	"one two"
+	"three three";
+	/*"footer footer"*/
+	grid-gap: 20px;
+}
+
+/*grid one*/
+#gone{
+	grid-area: one;
+}
+.one{
+	margin-bottom: 35px;
+	width:100%;
+	border-style: solid;
+	border-width: 2px;
+	padding: 3px;
+}
+
+/*grid two*/
+#gtwo{
+	grid-area: two;
+}
+
+/*grid three*/
+#gthree{
+	grid-area: three;
+}
+/*User created*/
+.message{
+	text-align: center;
+	margin: auto;
+}
+.headerp{
+	float: left;
+}
+
+@media only screen and (max-width: 500px){
+	#body{
+		background-color: black;
+	}
+	#envelop{
+		width:100%;
+	}
+	
+	#mainpage{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+		"one"
+		"user"
+		"three";
+		grid-gap: 10px;
+	}
+	/*one*/
+	#gone{
+		grid-area: one;
+	}
+	.one{
+		margin-bottom: 15px;
+		width:100%;
+		border-style: solid;
+		border-width: 2px;
+		padding: 3px;
+	}
+
+	/*two*/
+	#gtwo{
+		grid-area: two;
+	}
+
+	/*three*/
+	#gthree{
+		grid-area: three;
+	}
+}
