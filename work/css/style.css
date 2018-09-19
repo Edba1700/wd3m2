@@ -7,7 +7,7 @@ p, body, section, ul, li, #container, footer, h1,h2,h3,h4,h5,h6{
 /*Tags*/
 body{
     color: black;
-	background-image: url(../bilder/bg.jpg);
+	background-color: lightblue;
 	background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -34,7 +34,7 @@ footer{
 /*logo*/
 
 #logod{
-	width:15%;
+	width:55%;
 	margin-bottom: 15px;
 }
 #logoi{
